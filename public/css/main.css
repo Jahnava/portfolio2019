@@ -1,0 +1,184 @@
+/* general styles */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+#home {
+  background: url("https://firebasestorage.googleapis.com/v0/b/pics-85b52.appspot.com/o/desk2.jpeg?alt=media&token=d1a0dba3-6ba5-4b9e-ac91-3c6a583da7d9")
+    no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+
+#services .glyphicon {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#about {
+  background: url("https://firebasestorage.googleapis.com/v0/b/pics-85b52.appspot.com/o/background-2426328_960_720.jpg?alt=media&token=7fa98445-b47c-4ee9-b14f-2a3e8e654d13")
+    no-repeat center center fixed;
+  display: table;
+  height: 300px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about .panel {
+  opacity: 0.85;
+}
+
+#contact {
+  background: url("https://firebasestorage.googleapis.com/v0/b/pics-85b52.appspot.com/o/background-2426328_960_720.jpg?alt=media&token=7fa98445-b47c-4ee9-b14f-2a3e8e654d13")
+    no-repeat center center fixed;
+  display: table;
+  height: 300px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#contact .panel {
+  opacity: 0.85;
+}
+
+#footer {
+  background: url("https://firebasestorage.googleapis.com/v0/b/pics-85b52.appspot.com/o/office.jpg?alt=media&token=1e026a69-759c-41ff-b594-9674dff54ffc")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: blue;
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+    7px 6px 1px #cccccc;
+}
+
+.img-circle {
+  border-style: solid;
+  border-width: 1px;
+  border-color: silver;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+@media (max-width: 1000px) {
+  #circleImage {
+    margin-top: 0%;
+  }
+}
+
+@media (min-width: 50px) and (max-width: 1000px) {
+  #circleImage {
+    margin-top: 0%;
+  }
+}
+
+.titleText {
+  color: black;
+  margin-bottom: 1px;
+  font-weight: bold;
+  text-shadow: 4px 4px 50px rgba(300, 300, 300, 300);
+  /* padding-left:230px; */
+}
+
+.pull-right {
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+    "AppleGothic", sans-serif;
+  font-size: 92px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+    "AppleGothic", sans-serif;
+  font-size: 92px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+#success_message {
+  display: none;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar {
+  border-style: solid;
+  border-width: 1px;
+  border-color: silver;
+}
+
+li {
+  margin: 0 auto;
+  text-align: center;
+  margin-right: 1%;
+}
+
+ul {
+  margin-right: 2%;
+}
